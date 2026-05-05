@@ -28,7 +28,7 @@ import io.github.thebusybiscuit.slimefun4.core.guide.options.SlimefunGuideSettin
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import lombok.Getter;
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
+//import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.AdvancedPie;
 import org.bukkit.Bukkit;
@@ -51,7 +51,7 @@ import java.util.Set;
 import java.util.logging.Level;
 
 public class Networks extends JavaPlugin implements SlimefunAddon {
-    private static final String DEFAULT_LANGUAGE = "zh-CN";
+    private static final String DEFAULT_LANGUAGE = "en-US";
     private static Networks instance;
 
     @Getter
@@ -132,8 +132,8 @@ public class Networks extends JavaPlugin implements SlimefunAddon {
         getLogger().info(getLocalizationService().getString("messages.startup.getting-config"));
         saveDefaultConfig();
 
-        getLogger().info(getLocalizationService().getString("messages.startup.trying-auto-update"));
-        tryUpdate();
+//        getLogger().info(getLocalizationService().getString("messages.startup.trying-auto-update"));
+//        tryUpdate();
 
         this.supportedPluginManager = new SupportedPluginManager();
 
@@ -257,11 +257,11 @@ public class Networks extends JavaPlugin implements SlimefunAddon {
     }
 
     @SuppressWarnings("deprecation")
-    public void tryUpdate() {
-        if (configManager.isAutoUpdate() && getDescription().getVersion().startsWith("Build")) {
-            GuizhanUpdater.start(this, getFile(), username, repo, branch);
-        }
-    }
+//    public void tryUpdate() {
+//        if (configManager.isAutoUpdate() && getDescription().getVersion().startsWith("Build")) {
+//            GuizhanUpdater.start(this, getFile(), username, repo, branch);
+//        }
+//    }
 
     public void superHead() {
         List<String> superHead = getLocalizationService().getStringList("messages.super-head");
