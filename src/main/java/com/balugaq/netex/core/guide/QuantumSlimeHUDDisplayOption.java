@@ -38,9 +38,9 @@ public class QuantumSlimeHUDDisplayOption implements SlimefunGuideOption<Boolean
         boolean enabled = getSelectedOption(p, guide).orElse(false);
         ItemStack item = new CustomItemStack(
                 isEnabled(p) ? Material.KNOWLEDGE_BOOK : Material.BOOK,
-                "&b量子存储HUD显示方式: &" + (enabled ? "a百分比显示" : "4数值显示"),
+                "&bQuantum storage HUD display: &" + (enabled ? "a percentage display" : "4Numerical display"),
                 "",
-                "&7\u21E8 &e点击使用量子存储HUD显示方式为 " + (!enabled ? "百分比显示" : "数值显示")
+                "&7\u21E8 &eClick to use the quantum storage HUD display mode. " + (!enabled ? "Percentage display" : "Numerical display")
         );
         return Optional.of(item);
     }
