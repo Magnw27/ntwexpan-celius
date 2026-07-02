@@ -20,6 +20,17 @@ public class SetupUtil {
             ExpansionItems.ITEM_MOVER.registerThis(),
             ExpansionItems.STATUS_VIEWER.registerThis());
 
+        /* blueprint for craftnesia */
+        ExpansionItemsMenus.SUB_MENU_BLUEPRINT.addTo(
+            ExpansionItems.CRAFTING_BLUEPRINT.registerThis(),
+            ExpansionItems.SMELTERY_BLUEPRINT.registerThis(),
+            ExpansionItems.JUICER_BLUEPRINT.registerThis(),
+            ExpansionItems.MAGIC_WORKBENCH_BLUEPRINT.registerThis(),
+            ExpansionItems.ORE_CRUSHER_BLUEPRINT.registerThis(),
+            ExpansionItems.PRESSURE_CHAMBER_BLUEPRINT.registerThis(),
+            ExpansionItems.GRIND_STONE_BLUEPRINT.registerThis(),
+            ExpansionItems.COMPRESSOR_BLUEPRINT.registerThis(),
+        
         /* cargo */
         ExpansionItemsMenus.SUB_MENU_ADVANCED_STORAGE.addTo(ExpansionItems.ADVANCED_QUANTUM_STORAGE.registerThis());
         ExpansionItemsMenus.SUB_MENU_NETWORKS_DRAWERS.addTo(
@@ -169,7 +180,6 @@ public class SetupUtil {
             ExpansionItems.WORLDEDIT_AXE.registerThis(),
             ExpansionItems.MAGIC_WORKBENCH_BLUEPRINT.registerThis(),
             ExpansionItems.ARMOR_FORGE_BLUEPRINT.registerThis(),
-            ExpansionItems.SMELTERY_BLUEPRINT.registerThis(),
             ExpansionItems.QUANTUM_WORKBENCH_BLUEPRINT.registerThis(),
             ExpansionItems.ANCIENT_ALTAR_BLUEPRINT.registerThis(),
             ExpansionItems.EXPANSION_WORKBENCH_BLUEPRINT.registerThis(),
