@@ -199,68 +199,68 @@ public class ExpansionItems {
     public static final MagicWorkbenchBlueprint MAGIC_WORKBENCH_BLUEPRINT = new MagicWorkbenchBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.MAGIC_WORKBENCH_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.MAGIC_WORKBENCH-BLUEPRINT);
 
     public static final ArmorForgeBlueprint ARMOR_FORGE_BLUEPRINT = new ArmorForgeBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.ARMOR_FORGE_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.ARMOR_FORGE_BLUEPRINT);
 
     public static final SmelteryBlueprint SMELTERY_BLUEPRINT = new SmelteryBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.SMELTERY_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.SMELTRY_BLUEPRINT);
 
     public static final QuantumWorkbenchBlueprint QUANTUM_WORKBENCH_BLUEPRINT = new QuantumWorkbenchBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.QUANTUM_WORKBENCH_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.QUANTUM_WORKBENCH_BLUEPRINT);
 
     public static final AncientAltarBlueprint ANCIENT_ALTAR_BLUEPRINT = new AncientAltarBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.ANCIENT_ALTAR_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.ANCIENT_ALTAR_BLUEPRINT);
 
     public static final ExpansionWorkbenchBlueprint EXPANSION_WORKBENCH_BLUEPRINT = new ExpansionWorkbenchBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.EXPANSION_WORKBENCH_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.EXPANSION_WORKBENCH_BLUEPRINT);
 
     public static final CompressorBlueprint COMPRESSOR_BLUEPRINT = new CompressorBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.COMPRESSOR_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.COMPRESSOR_BLUEPRINT);
 
     public static final GrindStoneBlueprint GRIND_STONE_BLUEPRINT = new GrindStoneBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.GRIND_STONE_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.GRIND_STONE_BLUEPRINT);
 
     public static final JuicerBlueprint JUICER_BLUEPRINT = new JuicerBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.JUICER_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.JUICER_BLUEPRINT);
 
     public static final OreCrusherBlueprint ORE_CRUSHER_BLUEPRINT = new OreCrusherBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.ORE_CRUSHER_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.ORE_CRUSHER_BLUEPRINT);
 
     public static final PressureChamberBlueprint PRESSURE_CHAMBER_BLUEPRINT = new PressureChamberBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.PRESSURE_CHAMBER_BLUEPRINT,
-        RecipeType.NULL,
-        ExpansionRecipes.NULL);
+        RecipeType.ENHANCED_CRAFTING_TABLE,
+        ExpansionRecipes.PRESSURE_CHAMBER_BLUEPRINT);
 
     // Encoders
     public static final MagicWorkbenchEncoder MAGIC_WORKBENCH_RECIPE_ENCODER = new MagicWorkbenchEncoder(
