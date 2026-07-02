@@ -29,7 +29,7 @@ public class SetupUtil {
             ExpansionItems.ORE_CRUSHER_BLUEPRINT.registerThis(),
             ExpansionItems.PRESSURE_CHAMBER_BLUEPRINT.registerThis(),
             ExpansionItems.GRIND_STONE_BLUEPRINT.registerThis(),
-            ExpansionItems.COMPRESSOR_BLUEPRINT.registerThis()
+            ExpansionItems.COMPRESSOR_BLUEPRINT.registerThis());
         
         /* cargo */
         ExpansionItemsMenus.SUB_MENU_ADVANCED_STORAGE.addTo(
