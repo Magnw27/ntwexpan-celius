@@ -58,10 +58,10 @@ public class GridNewStyleCustomAmountGuideOption implements SlimefunGuideOption<
 
         ItemStack item = new CustomItemStack(
             Material.FURNACE,
-            "&a高级网格自定义单次取出数量",
+            "&aAdvanced grid allows for custom quantity retrieval per transaction.",
             "",
-            "&7当前数量: " + value + " (限制范围: 1~" + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + ")",
-            "&7\u21E8 &e点击设置数量"
+            "&7Current quantity: " + value + " (Limitations: 1~" + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + ")",
+            "&7\u21E8 &eClick to set quantity"
         );
         return Optional.of(item);
     }
@@ -69,12 +69,12 @@ public class GridNewStyleCustomAmountGuideOption implements SlimefunGuideOption<
     @Override
     public void onClick(@NotNull Player p, @NotNull ItemStack guide) {
         p.closeInventory();
-        p.sendMessage(ChatColors.color("&e请输入高级网格自定义单次取出数量"));
+        p.sendMessage(ChatColors.color("&ePlease enter the custom quantity for a single retrieval in the advanced grid."));
         ChatInput.waitForPlayer(Networks.getInstance(), p, s -> {
             try {
                 int value = Calculator.calculate(s).intValue();
                 if (value < 1 || value > GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT) {
-                    p.sendMessage("请输入 1 ~ " + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + " 之间的正整数");
+                    p.sendMessage("Please enter 1 ~ " + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + " Positive integers between");
                     return;
                 }
 
@@ -85,7 +85,7 @@ public class GridNewStyleCustomAmountGuideOption implements SlimefunGuideOption<
                     SlimefunGuideSettings.openSettings(p, guide);
                 }
             } catch (NumberFormatException e) {
-                p.sendMessage("请输入 1 ~ " + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + " 之间的正整数" + e.getMessage());
+                p.sendMessage("Please enter 1 ~ " + GRID_NEW_STYLE_MAX_CUSTOM_AMOUNT + " Positive integers between" + e.getMessage());
             }
         });
     }

@@ -74,7 +74,7 @@ public class Networks extends JavaPlugin implements SlimefunAddon {
     private long slimefunTickCount;
 
     public Networks() {
-        this.username = "ytdd9527";
+        this.username = "thecavern";
         this.repo = "NetworksExpansion";
         this.branch = "master";
     }
