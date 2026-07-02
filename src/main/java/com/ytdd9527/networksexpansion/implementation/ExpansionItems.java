@@ -200,7 +200,7 @@ public class ExpansionItems {
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.MAGIC_WORKBENCH_BLUEPRINT,
         RecipeType.ENHANCED_CRAFTING_TABLE,
-        ExpansionRecipes.MAGIC_WORKBENCH-BLUEPRINT);
+        ExpansionRecipes.MAGIC_WORKBENCH_BLUEPRINT);
 
     public static final ArmorForgeBlueprint ARMOR_FORGE_BLUEPRINT = new ArmorForgeBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
@@ -212,7 +212,7 @@ public class ExpansionItems {
         ExpansionItemsMenus.MENU_ITEMS,
         ExpansionItemStacks.SMELTERY_BLUEPRINT,
         RecipeType.ENHANCED_CRAFTING_TABLE,
-        ExpansionRecipes.SMELTRY_BLUEPRINT);
+        ExpansionRecipes.SMELTERY_BLUEPRINT);
 
     public static final QuantumWorkbenchBlueprint QUANTUM_WORKBENCH_BLUEPRINT = new QuantumWorkbenchBlueprint(
         ExpansionItemsMenus.MENU_ITEMS,
