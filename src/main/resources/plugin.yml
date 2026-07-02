@@ -3,9 +3,10 @@ authors:
   - Sefiraat
   - balugaq
   - ytdd9527
-description: No idea yet
+  - asnoo (Translation and Correction)
+description: makasi sudah memasang plugin ini sayang
 main: io.github.sefiraat.networks.Networks
-website: https://github.com/ytdd9527/NetworksExpansion
+website: https://github.com/Magnw27/NetworksExpansion | github asnoo
 version: ${project.version}
 api-version: 1.20
 depend:
