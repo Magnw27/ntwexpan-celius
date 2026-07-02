@@ -1,13 +1,13 @@
-# Auto update from Guizhan Build is enabled by default.
+# auto update mending matiin
 auto-update: false
 
-# Language
+# BAHASA
 language: en-US
 
-# Do not change this value unless you know what you are doing.
+# kita terpaksa memakai versi lama ya kak (sementara)
 config-version: 2.1.68
 
-# Do not change this value unless you know what you are doing.
+# debug biarin ini aja
 debug: false
 
 grid-new-style-max-custom-amount: 2304
@@ -39,11 +39,6 @@ record-gc:
   threshold: 131072
   deadline: 120000 # milliseconds
 
-# max-distance means the max distance that the transfer can access. Unit: Block
-# pushitem-tick means the interval time to push. Unit: SF Tick
-# grabitem-tick means the interval time to grab. Unit: SF Tick
-# required-power means the power required to tick. Unit: J
-# 1 SF Tick = 0.5 seconds
 items:
   NTW_EXPANSION_LINE_TRANSFER_PUSHER:
     max-distance: 32
