@@ -32,7 +32,8 @@ public class SetupUtil {
             ExpansionItems.COMPRESSOR_BLUEPRINT.registerThis(),
         
         /* cargo */
-        ExpansionItemsMenus.SUB_MENU_ADVANCED_STORAGE.addTo(ExpansionItems.ADVANCED_QUANTUM_STORAGE.registerThis());
+        ExpansionItemsMenus.SUB_MENU_ADVANCED_STORAGE.addTo(
+            ExpansionItems.ADVANCED_QUANTUM_STORAGE.registerThis());
         ExpansionItemsMenus.SUB_MENU_NETWORKS_DRAWERS.addTo(
             ExpansionItems.DRAWER_TIPS.registerThis(),
             ExpansionItems.CARGO_STORAGE_UNIT_1.registerThis(),
@@ -111,7 +112,8 @@ public class SetupUtil {
             ExpansionItems.ADVANCED_LINE_TRANSFER_VANILLA_PLUS_PUSHER.registerThis()
         );
         ExpansionItemsMenus.SUB_MENU_CARGO.addTo(
-            ExpansionItems.SMART_GRABBER.registerThis(), ExpansionItems.SMART_PUSHER.registerThis());
+            ExpansionItems.SMART_GRABBER.registerThis(),
+            ExpansionItems.SMART_PUSHER.registerThis());
 
         /* functional machines */
         ExpansionItemsMenus.SUB_MENU_CORE_MACHINE.addTo(
